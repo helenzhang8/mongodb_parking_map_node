@@ -1,0 +1,22 @@
+Private in package.json
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   client/src/MapViewScratch.js
+#	new file:   client/src/assets/PulsingDot/PulsingDot.js
+#	new file:   client/src/assets/PulsingDot/style.css
+#	new file:   client/src/assets/food-dinner.svg
+#	new file:   client/src/assets/icons/culture.svg
+#	new file:   client/src/assets/icons/dining_1.svg
+#	new file:   client/src/assets/icons/dining_2.svg
+#	new file:   client/src/assets/icons/general_location.svg
+#	new file:   client/src/assets/icons/shopping.svg
+#	new file:   client/src/assets/icons/tourist_attraction.svg
+#	new file:   client/src/assets/icons/views.svg
+#	new file:   client/src/assets/red-dot.svg
+#	modified:   package.json
+#
