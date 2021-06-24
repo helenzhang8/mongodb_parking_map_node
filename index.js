@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require('path');
+const cors = require('cors');
 
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(cors());
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://areaprobe:parking@cluster0.jzp7s.mongodb.net/parking?retryWrites=true&w=majority";
@@ -17,8 +19,6 @@ client.connect(err => {
     // perform actions on the collection object
     // client.close();
 });
-
-app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.get("/api", (req, res) => {
     res.json({ message: list });
