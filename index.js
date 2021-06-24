@@ -19,7 +19,9 @@ client.connect(err => {
 });
 
 app.get("/api", (req, res) => {
-    res.json({message: list});
+    res.json({
+        message: list
+    });
 });
 
 // app.get('*', (req, res) => {
